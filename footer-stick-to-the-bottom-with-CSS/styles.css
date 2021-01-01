@@ -1,3 +1,4 @@
+/* FLEX WAY*/
 * {
   margin: 0;
   padding: 0;
@@ -22,4 +23,11 @@ footer {
 }
 button {
   padding: 1rem;
+}
+
+/* GRID WAY*/
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
 }
